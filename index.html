@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fourhanrring - Developer -- Raesk</title>
+	<style>
+		body {
+			background-color: black;
+		}
+		h1 {
+			color: red;
+		}
+		p {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box-parent-login">
+		<div class="well bg-white box-login">
+			<h1 class="ls-login-logo">Fourhanrring Berstrafer Painel</h1>
+			<form role="form">
+				<fieldset>
+					<script>
+						function autenticar() {
+							var username = document.getElementById("username").value;
+							var password = document.getElementById("password").value;							// Verificar as informações de login
+							if (username === "raeskadm" && password === "senha1234") {
+								alert("Login bem-sucedido!");
+								window.location.href = "https://www.google.com"; // Redirecionar para a página do Google
+							} else {
+								alert("Nome de usuário ou senha incorretos!");
+							}
+						}
+					</script>
+
+					<h1>Autenticação de Usuário</h1>
+
+					<form>
+						<p><label for="username">Nome de usuário:</label></p>
+						<input type="text" id="username" required>
+
+						<p><label for="password">Senha:</label></p>
+						<input type="password" id="password" required>
+
+						<input type="button" value="Entrar" onclick="autenticar()">
+					</form>
+
+					<p class="txt-center ls-login-signup">Não possui um usuário na Rousier.net? Chame o dono no numero abaixo e compre seu login!
+						<a href="#">Cadastre-se agora</a>
+					</p>
+
+					<p class="txt-cenfer ls-login-signup">Painel has been created by Raesk.</p>
+
+					<fieldset></fieldset>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+
+	<p class="txt-cenfer ls-login-signup">What is the "Fourhanrring Painel"?. This is a tool for the ban WhatsApp numbers. Well, I (Raesk, Fourhanrring creator), recommend you don't use this "painel". If you will use, have responsibility. I do not take responsibility if you use it irresponsibly.</p>
+	<p class="txt-cenfer ls-login-signup">In a case of error, contact the Developer: (raesk) wa.me/5541988883334. Thanks!</p>
+
+	<h1 class="ls-login-logo">Credits From:</h1>
+	<p class="txt-cenfer ls-login-signup">Developer - Raesk</p>
+	<p class="txt-cenfer ls-login-signup">Programmer - Raesk</p>
+	<p class="txt-cenfer ls-login-signup">Helper - Snape</p>
+
+</body>
+</html>
